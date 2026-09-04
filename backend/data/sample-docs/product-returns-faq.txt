@@ -1,0 +1,19 @@
+Product Returns and Refunds FAQ
+
+Q: What is the return window?
+A: Customers can return most products within 14 days of delivery for a full refund. Electronics have an extended 30-day window if the item is defective.
+
+Q: What condition must items be in?
+A: Items must be unused, in their original packaging, and include all accessories. Opened software, gift cards, and perishable goods cannot be returned.
+
+Q: How do customers start a return?
+A: Customers log into their account, open the order, and click "Request return". They receive a prepaid shipping label by email within 1 business day. Support agents can also create a return on a customer behalf from the admin console.
+
+Q: When are refunds issued?
+A: Refunds are processed within 5 business days after the warehouse receives and inspects the item. The refund goes back to the original payment method. Bank processing may add 3 to 7 days for card payments.
+
+Q: Who pays for return shipping?
+A: Return shipping is free for defective or incorrect items. For change-of-mind returns, a 2 BHD label fee is deducted from the refund.
+
+Q: What about damaged deliveries?
+A: If an item arrives damaged, the customer should upload photos within 48 hours of delivery. Support issues an immediate replacement or refund without requiring the item to be shipped back for orders under 15 BHD.

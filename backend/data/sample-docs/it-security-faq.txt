@@ -1,0 +1,19 @@
+IT Security FAQ
+
+Q: How do I reset my password?
+A: Go to accounts.company.com and click "Forgot password". A reset link is emailed to your recovery address and expires after 15 minutes. If you no longer have access to your recovery email, open a ticket with IT Support and verify your identity with your employee ID.
+
+Q: What are the password requirements?
+A: Passwords must be at least 12 characters and include a mix of letters, numbers, and symbols. Passwords expire every 180 days, and the last 5 passwords cannot be reused.
+
+Q: Is multi-factor authentication required?
+A: Yes. MFA is mandatory for email, VPN, and the admin dashboard. The company supports authenticator apps and hardware keys; SMS codes are only allowed as a temporary fallback for 7 days.
+
+Q: What should I do if I receive a phishing email?
+A: Do not click any links or download attachments. Use the "Report Phishing" button in the mail client, which forwards the message to the security team, then delete it. If you already clicked a link, contact the security team immediately at security@company.com.
+
+Q: Can I install software on my work laptop?
+A: Standard tools from the internal Software Center can be installed freely. Anything else requires an IT request ticket. Installing cracked or unlicensed software is strictly prohibited.
+
+Q: How do I report a lost or stolen device?
+A: Report it to IT within 24 hours by phone or the helpdesk portal. IT will remotely wipe the device and issue a replacement within 3 business days.

@@ -1,0 +1,16 @@
+Incident Response Guide
+
+Severity Levels
+SEV1 means a full outage or data breach affecting all customers; response begins within 15 minutes. SEV2 is a major feature outage affecting many customers; response begins within 1 hour. SEV3 covers minor bugs and degraded performance; response begins within 1 business day.
+
+Declaring an Incident
+Any engineer can declare an incident by posting in the #incidents Slack channel with the /incident command. The on-call engineer becomes the incident commander by default until someone more senior takes over explicitly.
+
+Roles
+The incident commander coordinates the response and makes final calls. The communications lead posts status updates every 30 minutes for SEV1 and every 2 hours for SEV2. The scribe keeps a timeline of actions and decisions in the incident document.
+
+Communication
+Customer-facing status updates are published on the status page. Never share customer data, logs, or screenshots in public channels. Legal must review any external statement about a suspected data breach before it is published.
+
+Resolution and Postmortems
+An incident is resolved when the service is fully restored and monitored as stable for 30 minutes. A blameless postmortem is written within 3 business days for every SEV1 and SEV2, and reviewed in the weekly engineering meeting. Action items get owners and due dates in the tracker.
