@@ -1,16 +1,25 @@
 Incident Response Guide
 
+Purpose
+This guide defines how the team detects, responds to, and resolves production incidents, from first alert to postmortem.
+
 Severity Levels
-SEV1 means a full outage or data breach affecting all customers; response begins within 15 minutes. SEV2 is a major feature outage affecting many customers; response begins within 1 hour. SEV3 covers minor bugs and degraded performance; response begins within 1 business day.
+SEV1: full outage or major data exposure, affects all users. SEV2: significant degradation or a broken core feature, affects many users. SEV3: minor bug or degradation with a workaround, affects few users. Severity is set by the first responder and can be escalated as more information comes in.
 
-Declaring an Incident
-Any engineer can declare an incident by posting in the #incidents Slack channel with the /incident command. The on-call engineer becomes the incident commander by default until someone more senior takes over explicitly.
+Detection and Alerting
+Alerts fire automatically from monitoring (latency, error rate, uptime checks) and page the on-call engineer via the incident tool. Anyone can also manually declare an incident by posting in #incidents with a brief description.
 
-Roles
-The incident commander coordinates the response and makes final calls. The communications lead posts status updates every 30 minutes for SEV1 and every 2 hours for SEV2. The scribe keeps a timeline of actions and decisions in the incident document.
+First Response
+The on-call engineer acknowledges the page within 5 minutes for SEV1/SEV2, and 30 minutes for SEV3. They open an incident channel, assign an incident commander, and post an initial status update within 15 minutes of acknowledgment.
 
 Communication
-Customer-facing status updates are published on the status page. Never share customer data, logs, or screenshots in public channels. Legal must review any external statement about a suspected data breach before it is published.
+Status updates are posted every 30 minutes during a SEV1, every hour during a SEV2, until resolved or downgraded. Customer-facing status page updates are handled by the incident commander, not individual engineers.
 
-Resolution and Postmortems
-An incident is resolved when the service is fully restored and monitored as stable for 30 minutes. A blameless postmortem is written within 3 business days for every SEV1 and SEV2, and reviewed in the weekly engineering meeting. Action items get owners and due dates in the tracker.
+Resolution
+An incident is marked resolved when the underlying issue is fixed or mitigated and metrics return to normal for at least 15 minutes. A rollback is preferred over a forward-fix during active SEV1 incidents unless a fix is trivial and verified.
+
+Postmortem
+A blameless postmortem is required for every SEV1 and SEV2 incident, published within 5 business days of resolution. It must include a timeline, root cause, impact, and at least one concrete follow-up action with an owner and due date.
+
+Escalation
+If an incident is unresolved after 1 hour (SEV1) or 4 hours (SEV2), the incident commander escalates to the engineering manager on call.

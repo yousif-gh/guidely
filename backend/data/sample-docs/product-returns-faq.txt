@@ -1,19 +1,25 @@
-Product Returns and Refunds FAQ
+Product Returns FAQ
 
-Q: What is the return window?
-A: Customers can return most products within 14 days of delivery for a full refund. Electronics have an extended 30-day window if the item is defective.
+What is the return window?
+Items can be returned within 30 days of delivery for a full refund, provided they're unused and in original packaging. Items returned between 31 and 60 days qualify for store credit only.
 
-Q: What condition must items be in?
-A: Items must be unused, in their original packaging, and include all accessories. Opened software, gift cards, and perishable goods cannot be returned.
+When are refunds issued after a return?
+Refunds are issued within 5-7 business days after the returned item is received and inspected at our warehouse. Refunds go back to the original payment method; store credit is applied instantly.
 
-Q: How do customers start a return?
-A: Customers log into their account, open the order, and click "Request return". They receive a prepaid shipping label by email within 1 business day. Support agents can also create a return on a customer behalf from the admin console.
+Do I need the original receipt?
+An order confirmation email or order number is sufficient — a printed receipt is not required. Orders can be looked up by email address at returns.company.com.
 
-Q: When are refunds issued?
-A: Refunds are processed within 5 business days after the warehouse receives and inspects the item. The refund goes back to the original payment method. Bank processing may add 3 to 7 days for card payments.
+Who pays for return shipping?
+Return shipping is free for defective or incorrect items. For change-of-mind returns, a flat 3 BHD shipping fee is deducted from the refund unless you have a Premium membership.
 
-Q: Who pays for return shipping?
-A: Return shipping is free for defective or incorrect items. For change-of-mind returns, a 2 BHD label fee is deducted from the refund.
+Can I exchange an item instead of returning it?
+Yes, exchanges for a different size or color are processed as a return plus a new order, and are not subject to the return shipping fee.
 
-Q: What about damaged deliveries?
-A: If an item arrives damaged, the customer should upload photos within 48 hours of delivery. Support issues an immediate replacement or refund without requiring the item to be shipped back for orders under 15 BHD.
+What items are non-returnable?
+Personal care items, opened software licenses, and items marked "final sale" at checkout cannot be returned.
+
+My item arrived damaged — what do I do?
+Contact support within 48 hours of delivery with photos of the damage. Damaged items are replaced or refunded in full, including original shipping cost, with no return shipping fee.
+
+How do I track my return?
+Once your return is scanned by the carrier, tracking updates appear in your account under Orders > Returns within 24 hours.

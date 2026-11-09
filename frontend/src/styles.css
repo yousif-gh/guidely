@@ -327,35 +327,14 @@ textarea:focus-visible {
 }
 
 .spinner {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--ink-soft);
 }
 
-.spinner::after {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-inline-start: 8px;
-  border: 2px solid var(--line);
-  border-top-color: var(--cobalt);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-  vertical-align: -1px;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .spinner::after {
-    animation: none;
-  }
+.spinner img {
+  width: 64px;
+  height: 64px;
 }
 
 /* ----------------------------------------------------------------- admin */

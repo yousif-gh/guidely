@@ -79,7 +79,11 @@ export default function SearchPage() {
         ))}
       </div>
 
-      {loading && <p className="spinner">{t('spinner')}</p>}
+      {loading && (
+        <div className="spinner">
+          <img src="/letter-g-logo.gif" alt={t('spinner')} />
+        </div>
+      )}
 
       {error && (
         <div className="state error" role="alert">

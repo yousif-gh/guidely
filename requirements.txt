@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+faiss-cpu
+httpx
+numpy
+pydantic
+python-multipart

@@ -1,16 +1,25 @@
-New Employee Onboarding Guide
+Onboarding Guide
 
-Week 1: Getting Set Up
-On your first day you will receive your laptop, badge, and accounts. Complete the security awareness training in the learning portal within your first 3 days. Your manager will assign you an onboarding buddy who is your first point of contact for day-to-day questions.
+Purpose
+This guide walks new hires through their first two weeks, from account setup to first team meeting.
 
-Accounts and Tools
-You will get access to email, Slack, the HR portal, and your team project tracker. Access to production systems is not granted during the first 2 weeks and requires a separate access request approved by your team lead.
+Before Day One
+HR sends a welcome email with your start date, manager's name, and a checklist link 5 business days before you start. IT provisions your company email and laptop by end of day on your start date.
 
-Week 2 to 4: Learning the Ropes
-Schedule 30-minute intro calls with each member of your immediate team. Read your team runbook and shadow at least two support rotations. By the end of week 4 you should complete your first small task end-to-end.
+Day One
+Arrive by 9:00 for orientation, which covers company overview, benefits enrollment, and a building/office tour. You'll receive your laptop, access badge, and login credentials. Complete mandatory compliance training (data privacy and security basics) by end of week one.
 
-Payroll and Benefits
-Salaries are paid on the 25th of each month. Health insurance activates from day one; dependents can be added within the first 30 days through the HR portal. The company matches pension contributions up to 5% of base salary.
+First Week
+Meet 1:1 with your manager to review your 30/60/90-day goals. Shadow a teammate on at least two real tasks. Join your team's recurring meetings and Slack channels. Set up your development environment (or relevant tools for your role) with help from your onboarding buddy.
 
-Probation and Reviews
-The probation period lasts 3 months and ends with a review covering goals, feedback, and confirmation of employment. Your manager will set 2 to 3 measurable goals with you during your first week.
+Systems Access
+Standard access (email, Slack, HR portal) is granted automatically on day one. Role-specific system access (e.g. production systems, finance tools) requires manager approval and is typically granted within 3 business days.
+
+30-Day Check-In
+Your manager schedules a formal check-in at the 30-day mark to review progress against onboarding goals and address any blockers.
+
+90-Day Review
+A more thorough performance and fit conversation happens at 90 days, marking the end of the standard onboarding period. Probation status (where applicable) is confirmed or extended at this point.
+
+Who to Contact
+IT issues: it-support@company.com. HR/benefits questions: hr@company.com. General onboarding questions: your assigned onboarding buddy or manager.

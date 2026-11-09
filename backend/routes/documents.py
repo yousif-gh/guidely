@@ -1,4 +1,3 @@
-"""Document management: upload, list, read, edit, delete, re-index."""
 from __future__ import annotations
 
 import time
