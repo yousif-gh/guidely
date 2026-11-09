@@ -1,9 +1,6 @@
 .venv/
 __pycache__/
-node_modules/
-frontend/dist/
 .env
-backend/data/embeddings_cache.json
-backend/data/index_meta.json
-backend/data/faiss.index
-backend/data/logs/
+node_modules/
+dist/
+LEARNING-NOTES.md
