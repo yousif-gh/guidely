@@ -1,2 +1,3 @@
 fastapi
 uvicorn[standard]
+fastembed==0.9.1

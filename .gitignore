@@ -4,3 +4,4 @@ __pycache__/
 node_modules/
 dist/
 LEARNING-NOTES.md
+backend/data/embedding_cache.json
