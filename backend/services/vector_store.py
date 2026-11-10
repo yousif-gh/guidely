@@ -1,4 +1,5 @@
 import json
+import threading
 from pathlib import Path
 
 import faiss
@@ -11,6 +12,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 DOCS_DIR = DATA_DIR / "sample-docs"
 INDEX_DIR = DATA_DIR / "index"
 DIMENSIONS = 384
+store_lock = threading.Lock()
 
 
 def to_matrix(vectors: list[list[float]]) -> np.ndarray:

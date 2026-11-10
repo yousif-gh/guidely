@@ -4,14 +4,18 @@ CHUNK_WORDS = 400
 OVERLAP_WORDS = 50
 
 
-def read_text(path: Path) -> str:
+def decode_text(content: bytes, name: str) -> str:
     try:
-        text = path.read_text(encoding="utf-8")
+        text = content.decode("utf-8")
     except UnicodeDecodeError as error:
-        raise ValueError(f"{path.name} is not a valid UTF-8 text file.") from error
+        raise ValueError(f"{name} is not a valid UTF-8 text file.") from error
     if not text.strip():
-        raise ValueError(f"{path.name} is empty.")
+        raise ValueError(f"{name} is empty.")
     return text
+
+
+def read_text(path: Path) -> str:
+    return decode_text(path.read_bytes(), path.name)
 
 
 def chunk_text(

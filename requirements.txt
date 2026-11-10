@@ -2,3 +2,4 @@ fastapi
 uvicorn[standard]
 fastembed==0.9.1
 faiss-cpu==1.15.1
+python-multipart==0.0.33
