@@ -1,0 +1,25 @@
+Larkfield Supplies Warehouse Order Guide
+
+Picking an order
+
+Open the handheld scanner and choose Next Order. Walk to the shelf shown on the screen and scan the shelf label before taking the item. Scan each item as you pick it. If the screen shows a red warning, the item does not match the order, so put it back and call a shift lead.
+
+Packing an order
+
+Use the smallest box that fits the items with 2 centimeters of padding on every side. Fragile items need bubble wrap and a Fragile sticker on two sides of the box. Boxes must not weigh more than 23 kilograms. Split heavier orders into several boxes.
+
+Printing labels
+
+Press Print Label on the packing station screen. The shipping label goes on the largest flat side of the box. Do not cover any barcode with tape.
+
+Carrier collection times
+
+The standard carrier collects at 4 pm and the express carrier collects at 5:30 pm. Parcels must be on the loading dock 15 minutes before collection.
+
+Stock counts
+
+Every shelf is counted on the first Monday of each quarter. Report any difference of more than 5 units to the inventory lead on the same day.
+
+Safety
+
+Wear safety boots at all times in the warehouse. Only staff with a current forklift license may drive forklifts, and licenses are renewed every 3 years. Report every injury to a shift lead immediately, even a small one.

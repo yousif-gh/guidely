@@ -1,0 +1,25 @@
+Larkfield Supplies IT Security Rules
+
+Passwords
+
+Passwords must be at least 14 characters long. Do not reuse a password across work systems. Use the company password manager to store them. Passwords do not expire on a schedule, but you must change one immediately if you think it was exposed.
+
+Multi-factor authentication
+
+Multi-factor authentication is required for email, the HR portal, the finance portal and the VPN. Use the authenticator app. Text message codes are not allowed.
+
+Laptops
+
+Laptops lock automatically after 5 minutes without activity. Disk encryption must stay turned on. Report a lost or stolen laptop to the IT help desk within 1 hour, at any time of day.
+
+Phishing
+
+Do not click links in unexpected messages. Forward suspicious emails to security@larkfield.example and then delete them. If you already clicked a link or entered a password, call the help desk straight away. Nobody is punished for reporting a mistake.
+
+Customer data
+
+Customer data must stay in approved systems. Never send customer lists through personal email or chat apps. Customer records are deleted 6 years after the last order.
+
+IT help desk
+
+The help desk is open from 8 am to 6 pm on business days at extension 4400. The on-call engineer handles security incidents outside those hours.
