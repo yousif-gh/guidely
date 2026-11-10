@@ -8,7 +8,7 @@ from services.vector_store import INDEX_DIR, search, store_lock
 router = APIRouter(tags=["search"])
 
 # Measured on sample docs: off-topic questions reached 0.52, on-topic started at 0.57.
-MIN_SCORE = 0.55
+MIN_SCORE = 0.52
 NO_RESULTS = "no answer found in the documents"
 
 
