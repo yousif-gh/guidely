@@ -2,6 +2,7 @@ from fastapi import APIRouter, HTTPException
 
 from models.record import SearchRequest
 from services.llm import LLMError, answer_question
+from services.metrics import logger
 from services.vector_store import INDEX_DIR, search, store_lock
 
 router = APIRouter(tags=["search"])
@@ -35,6 +36,7 @@ def ask(request: SearchRequest) -> dict:
     try:
         result = answer_question(request.question, chunks)
     except LLMError as error:
+        logger.error("model error: %s, cause: %r", error.message, error.__cause__)
         raise HTTPException(error.status_code, error.message) from error
     if result is None:
         raise HTTPException(404, NO_RESULTS)

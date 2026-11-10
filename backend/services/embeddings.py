@@ -4,6 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from fastembed import TextEmbedding
+from services.metrics import record_cache
 
 MODEL_NAME = "BAAI/bge-small-en-v1.5"
 CACHE_PATH = Path(__file__).parent.parent / "data" / "embedding_cache.json"
@@ -31,4 +32,6 @@ def embed_texts(
         for key, vector in zip(missing, vectors):
             cache[key] = vector.tolist()
         cache_path.write_text(json.dumps(cache))
-    return [cache[key] for key in keys], len(texts) - len(missing)
+    hits = len(texts) - len(missing)
+    record_cache(hits, len(missing))
+    return [cache[key] for key in keys], hits
